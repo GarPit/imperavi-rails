@@ -37,7 +37,7 @@ var RTOOLBAR = {};
 		this.opts = $.extend({
 			lang:           '/imperavi-rails/languages/en.js',
 			toolbar:        '/imperavi-rails/toolbars/default.js',
-			css:            '/assets/imperavi.css',
+			css:            '/assets/imperavi-rails.css',
 			linkFileUpload: false, // url
 			fileUpload:     false, // url
 			handler:        false, // false or url
