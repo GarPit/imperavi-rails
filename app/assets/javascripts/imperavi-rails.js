@@ -47,7 +47,7 @@ var RTOOLBAR = {};
 
 			load: true,
 		
-			path: false,
+			path: '/imperavi-rails',
 			
 			focus: true,
 			resize: true,
