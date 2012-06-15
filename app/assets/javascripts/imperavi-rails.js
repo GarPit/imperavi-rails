@@ -42,8 +42,8 @@ var RTOOLBAR = {};
 			fileUpload:     false, // url
 			handler:        false, // false or url
 			autosave:       false, // false or url
-			imageUpload:    false, // url
-			imageGetJson:   false, // url (ex. /folder/images.json ) or false
+			imageUpload:    'forum/post_images', // url
+			imageGetJson:   'forum/post_images.json', // url (ex. /folder/images.json ) or false
 
 			load: true,
 		
