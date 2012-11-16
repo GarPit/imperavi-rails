@@ -800,7 +800,7 @@ var RTOOLBAR = {};
 			{
 				this.$frame.hide();
 				
-				html = this.$editor.html();
+				html = this.$editor.text(); //html();
 				html = $.trim(this.formating(html));
 				
 				this.$el.val(html).show().focus();
@@ -2234,8 +2234,8 @@ var RTOOLBAR = {};
 					if (html)
 					{
 						html = html.replace(/&/g, '&amp;')
-									//.replace(/</g, '&lt;')
-									//.replace(/>/g, '&gt;')
+									.replace(/</g, '&lt;')
+									.replace(/>/g, '&gt;')
 									.replace(url1, '$1<a href="http://$2">$2</a>$3')
 									.replace(url2, '$1<a href="$2">$2</a>$5');
 
