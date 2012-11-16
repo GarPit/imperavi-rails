@@ -800,7 +800,7 @@ var RTOOLBAR = {};
 			{
 				this.$frame.hide();
 				
-				html = this.$editor.text(); //html();
+				html = this.$editor.html();
 				html = $.trim(this.formating(html));
 				
 				this.$el.val(html).show().focus();
